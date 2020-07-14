@@ -52,6 +52,7 @@ form{
 
  form fieldset{
      margin-top: 64px;
+     border: 0;
  }
 
  form legend{
@@ -165,5 +166,8 @@ margin-left: 24px;
 .items-grid li.selected{
         background: #e1faec;
         border:  2px solid #34cb79;
-
+}
+.items-grid li img,
+.items-grid li span{
+    pointer-events: none;
 }
